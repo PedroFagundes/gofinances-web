@@ -3,64 +3,68 @@
 </div>
 
 <p align="center">
-  <a href="#rocket-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#package-tecnologias-utilizadas">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#package-used-technologies">Use technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-shut-up-and-show-me-the-code-working">Shut up and show me the code (working)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#milky_way-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-## :rocket: Sobre
+## :rocket: About
 
-Aplicação web de gestão bácisa de transações desenvolvida como desafio pertencente ao [Bootcamp GoStack](https://rocketseat.com.br/gostack) da **Rocketseat**. Esta aplicação se conecta ao [backend](https://github.com/pedrofagundes/gofinances-backend) também desenvolvido no bootcamp.
+A web application for basic financial transactions management built as part of the **Rocketseat's** [Bootcamp GoStack](https://rocketseat.com.br/gostack), a 16 weeks long immersive Full Stack Javascript course.
 
-Nele o usuário pode fazer o upload de um arquivo com a extensão `.csv` (comma separated values) com os dados das transações a seguir:
+This app was build following the module's requested features that was basically:
 
-Campo   | Tipo | Description
+- Users should be able to see all the current financial transactions in a list.
+- Users should be able to see a sum of all incoming and outcoming transaction as the total of both.
+- Users should be able to import a `.csv` file with the described structure on the bellow tab.
+
+Field   | Type | Description
 --------- | ------ | ------
-title | string | Descrição da transação
-type  | string | Tipo da transação (income \| outcome)
-value | number | Valor da transação (150.99)
-category | string | Categoria da transação (ex.: Gastos fixos)
+title | string | Transaction description
+type  | string | Transaction type (income \| outcome)
+value | number | Transaction value (150.99)
+category | string | Transaction category (ex.: Energy bills)
 
-## :package: Tecnologias utilizadas
+## :package: Used technologies
 
-Algumas tecnologias utilizadas neste projeto:
+This web application was built using ReactJS consuming the [backend](https://github.com/pedrofagundes/gofinances-backend) (also built as part of the bootcamp) build with [express](https://expressjs.com/pt-br/) in a [Node.js](https://nodejs.org) server:
 
 * **ReactJs**
-  * "Uma biblioteca JavaScript para criar interfaces de usuário"
+  * "A JavaScript library for building user interfaces".
 * **React hooks**
-  * Permitem que possamos utilizar `state` e outros recursos sem escrever uma classe.
+  * Allows we to use `state` and other good features without writing a class.
     * **useState**
-      * Utilizado para criar e modificar estados da aplicação.
+      * Used to create and set *states* of the components without pain.
     * **useEffect**
-      * Utilizado para executar funções que podem ou nao depender do valor de um ou mais estados para se executada.
-* **React Router DOM**
-  * Biblioteca que auxilia na criação de rotas e navegação do usuário entre páginas web (navegador).
+      * Used to execute functions/methods that depends or not on one or more variables.
 * **Typescript**
-  * Linguagem que adiciona tipagem, dentre outras funcionalidades, ao javascript. Auxilia MUITO em relação ao intellisense do **VS Code** permitindo que o desenvolvedor saiba sempre o que esperar de cada função/variável assim como os parametros esperados também por cada função/variável.
+  * A language that adds typing and other good ES5/ES6 features to JavaScript. It helps us A LOT empowering the **VS Code's Intellisense** which guides us through methods arguments and variable methods and what they expect to receive. It surely has its learning curve but it totally worths it!
+* **React Router DOM**
+  * A library that helps us to create declarative routing for ReactJS.
 * **Axios**
-  * Cliente HTTP baseado no conceito de `Promise` para navegadores e Node.js
+  * A HTTP `Promise` based client for browsers and Node.js.
 * **ESLint**
-  * Um *linter* plugável e configurável que identifica e reporta problemas em *patterns* JavaScript. Estamos utilizando a Style Guide do AirBnb neste projeto, muito conhecido por ter uma abordagem bastante rasoável para o JavaScript.
+  * A plugable and customizable *linter* that identifies and reports *pattern* problems in a JavaScript code. We're using the popular AirBnb's javascript code style guide to make sure we're doing it the right way.
 * **Prettier**
-  * Um formatador de código opinado que ajuda MUITO quando utilizado junto ao *ESLint* forçando padrões a serem seguidos de forma "**automágica**"
+  * An opinionated code formatter that "*automagically*" force our code to follow the selected Style Guide. It saves a lot of time by the, annoying but needed, code formatting/linting.
 * **Styled components**
-  * Permite a criação de componentes reutilizáveis aplicando as melhores features do ES6 e CSS. E o mais legal: "without stress". :wink:
+  * Allows in the reusable components creation by applying the best ES6 and CSS best features. And the coolest thing is: "without stress". :wink:
 
 ## :computer: Shut up and show me the code (working)
 
-Com o [backend](https://github.com/pedrofagundes/gofinances-backend) clonado, configurado e rodando, clone o também este repositório e faça o seguinte:
+Clone the [backend](https://github.com/pedrofagundes/gofinances-backend) and follow its steps to get it ready and running and then proceed to this repository steps.
 
-Navegue até a pasta criada e abra no Visual Studio Code, lembre-se de executar o comando `yarn` no seu terminal para instalar todas as dependências. Após isto, basta rodar um `yarn start` *et voilà*, você está pronto para pronto para utilizar a aplicação!
+Run `yarn` in the root project's folder to install all needed dependencies and get ready to use this app. After that, you just need to run `yarn start` *et voilà!* You're ready to play this app.
 
 ## :milky_way: Screenshots
 <div align="center">
   <img alt="GoFinances Dashboard" src="https://imgur.com/lsGYXFb.png" />
-  <p>(Dashboard da aplicação)</p>
-  <img alt="GoFinances Dashboard" src="https://imgur.com/XmtKWNH.png" />
-  <p>(Página de importação de transações)</p>
+  <small>*(Dashboard)*</small>
+  <img alt="GoFinances Import page" src="https://imgur.com/XmtKWNH.png" />
+  <small>(Import transactions)</small>
 </div>
 
 ---
 
-Feito com 💜 by [Pedro Fagundes](https://github.com/pedrofagundes)
+Made with 💜 by [Pedro Fagundes](https://github.com/pedrofagundes)
