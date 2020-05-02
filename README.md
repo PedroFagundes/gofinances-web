@@ -60,7 +60,7 @@ Run `yarn` in the root project's folder to install all needed dependencies and g
 ## :milky_way: Screenshots
 <div align="center">
   <img alt="GoFinances Dashboard" src="https://imgur.com/lsGYXFb.png" />
-  <small>*(Dashboard)*</small>
+  <small>(Dashboard)</small>
   <img alt="GoFinances Import page" src="https://imgur.com/XmtKWNH.png" />
   <small>(Import transactions)</small>
 </div>
