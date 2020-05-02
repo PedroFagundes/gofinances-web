@@ -1,12 +1,12 @@
 <div align="center" style="background: #5636D3; padding: 16px;">
-  <img alt="GoFinances" src="https://i.imgur.com/LdLfYfX.png" />
+  <img alt="GoFinances" src="https://imgur.com/QGM92ls.png" />
 </div>
 
 <p align="center">
   <a href="#rocket-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#package-tecnologias-utilizadas">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#computer-shut-up-and-show-me-the-code-working">Shut up and show me the code (working)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#milky-way-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#milky_way-screenshots">Screenshots</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 ## :rocket: Sobre
